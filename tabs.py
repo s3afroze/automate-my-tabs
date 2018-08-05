@@ -15,7 +15,7 @@ website_list = 'websites.txt'
 variations_of_yes = open ('variation_of_yes.txt','r').read()
 yes_list = variations_of_yes.strip().split('\n')
 
-domains_list = open('domains.txt','r').read()
+domains_list = open('domains2.txt','r').read()
 all_domains = domains_list.strip().split('\n')
 
 f = open(website_list,'a')
@@ -31,55 +31,56 @@ else:
     if answer in yes_list:
         f.write('\n' + pyperclip.paste())
         print 'added'
+        print '\n'
     
     else:   
         print "Got it!"
+        print '\n'
                 
 f = open(website_list,'r')
 websites = f.read()
 edit = websites.strip().split('\n')
-website_list = filter(lambda x: x != '', edit)
-
-for el in website_list:
-    print el
+# website_list = filter(lambda x: x != '', edit)
 
 new_list = []
-
+n = 0
 def check_link(website_list):
 
     for link in website_list:
+        url = link.split()
+
+        starting = link.startswith('https://') or link.startswith('http://')
+        www = link.find('www.') >= 0
+
+        if not www:
+            url.insert(0,'www.')
+            # www = True
+
+        if not starting:
+            url.insert(0,'https://')
+            # starting = True
+
         for domain in all_domains:
             
-            starting = link.startswith('https://') or link.startswith('http://')
             ending = link.find(domain) >= 0
-            
-            if (not starting and not ending):
-                approved_link = 'https://' + link + '.com'
-                starting = True
-                ending = True 
-            
-            elif not ending:
-                approved_link = link + '.com'
-                ending = True 
-            
-            elif not starting:
-                approved_link = 'https://' + link
-                starting = True
-                break
-            
-            elif starting and ending:
-                approved_link = link
-                break              
-            
-        new_list.append(approved_link)
-                
+
+            if ending:
+                global n
+                n = 1
+
+        if n != 1:
+
+            url.append('.com')
+
+        new_list.append(''.join(url))
+    
     return new_list
 
-check_link(website_list)
+print check_link(edit)
      
-for site in new_list:
-    print site
-    webbrowser.open_new(site)
+# for site in new_list:
+#     print site
+#     webbrowser.open_new(site)
     
     
 #  

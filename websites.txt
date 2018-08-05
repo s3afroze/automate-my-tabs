@@ -1,3 +1,5 @@
-www.netflix.com
-www.pakistan.gov
-www.rere.ae
+google
+www.google.com
+https://www.google.com
+
+
