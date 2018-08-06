@@ -26,12 +26,13 @@ if len(sys.argv) > 1:
     f.write('\n'+ raw)
     
 else:
+    print "\nPress return or enter to skip."
     answer = raw_input("Would you like to add the site that you have on your clipboard to the {} file? ".format(website_list))
-    
+    print ''
+
     if answer in yes_list:
         f.write('\n' + pyperclip.paste())
-        print 'added'
-        print '\n'
+        print 'Added to the list.\n'
     
     else:   
         print "Got it!"
@@ -76,10 +77,12 @@ def check_link(website_list):
     
     return new_list
 
-print check_link(edit)
-     
-# for site in new_list:
-#     print site
-#     webbrowser.open_new(site)
+check_link(edit)
+
+print 'Opening links....'
+print ''
+for site in new_list:
+    print site
+    webbrowser.open_new(site)
     
     
