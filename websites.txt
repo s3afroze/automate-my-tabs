@@ -1,5 +1,4 @@
-google
-www.google.com
-https://www.google.com
-
-
+realpython 
+bloomberg
+techcrunch 
+gmail

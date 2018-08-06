@@ -15,7 +15,7 @@ website_list = 'websites.txt'
 variations_of_yes = open ('variation_of_yes.txt','r').read()
 yes_list = variations_of_yes.strip().split('\n')
 
-domains_list = open('domains2.txt','r').read()
+domains_list = open('domains4.txt','r').read()
 all_domains = domains_list.strip().split('\n')
 
 f = open(website_list,'a')
