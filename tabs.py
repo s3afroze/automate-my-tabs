@@ -12,29 +12,9 @@ import webbrowser, sys, pyperclip
 
 website_list = 'websites.txt'
 
-variations_of_yes = open ('variation_of_yes.txt','r').read()
-yes_list = variations_of_yes.strip().split('\n')
-
 domains_list = open('domains4.txt','r').read()
 all_domains = domains_list.strip().split('\n')
 
-f = open(website_list,'a')
-
-if len(sys.argv) > 1:
-# Get address from command line.
-    raw = ' '.join(sys.argv[1:])
-    f.write('\n'+ raw)
-    
-else:
-    answer = raw_input("\nWould you like to add the site that you have on your clipboard to the {} file?\nPress return or enter to skip.\n".format(website_list))
-
-    if answer in yes_list:
-        f.write('\n' + pyperclip.paste())
-        print 'Added to the list.\n'
-    
-    else:   
-        print "Got it!\n"
-                
 f = open(website_list,'r')
 websites = f.read()
 edit = websites.strip().split('\n')
@@ -76,8 +56,7 @@ def check_link(website_list):
 
 check_link(edit)
 
-print 'Opening links....'
-print ''
+print 'Opening links....\n'
 for site in new_list:
     print site
     webbrowser.open_new(site)
