@@ -69,9 +69,9 @@ def check_link(website_list):
                 n = 1
 
         if n != 1:
-
             url.append('.com')
 
+        n = 0
         new_list.append(''.join(url))
     
     return new_list
@@ -83,4 +83,3 @@ print check_link(edit)
 #     webbrowser.open_new(site)
     
     
-#  
