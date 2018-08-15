@@ -16,7 +16,7 @@ import webbrowser
 website_list = 'websites.txt'
 
 # extracting the list of domains of your site added.
-domains_list = open('domains4.txt','r').read()
+domains_list = open('domains.txt','r').read()
 all_domains = domains_list.strip().split('\n')
 
 # extracting the list of websites from the file.
@@ -24,9 +24,7 @@ f = open(website_list,'r')
 edit = f.read()
 websites = edit.strip().split('\n')
 
-
 new_list = []
-n = 0
 
 # Making your link viable for the browser to open.
 def check_link(website_list):
@@ -37,16 +35,17 @@ def check_link(website_list):
         starting = link.startswith('https://') or link.startswith('http://')
         www = link.find('www.') >= 0
 
-        if not www:
+        if not www and not starting:
             url.insert(0,'www.')
 
         if not starting:
             url.insert(0,'https://')
 
-'''
-initializing a variable for checking
-if the domain ends properly. 
-'''
+        '''
+        initializing a variable for checking
+        if the links on the file end with a domain or not. 
+
+        '''
         found = False
         for domain in all_domains:
             

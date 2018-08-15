@@ -1,5 +1,4 @@
 realpython 
 bloomberg
 techcrunch 
-gmail
-you
+gmail.com
