@@ -15,7 +15,7 @@ You can put the files anywhere if you know how to use the directory from the she
 You can follow the steps below if you dont know how to use the directory:
 1. Download the files in the Downloads folder.
 2. In order to interact with the script, enter the following in the shell: cd Desktop/downloads/automate-my-tabs
-3. Read the README.txt file.
+3. Check out the README.txt file.
 
 ## How to set the time?
 There are multiple ways to set the time to run the script for opening websites.
