@@ -28,6 +28,14 @@ There are multiple ways to set the time to run the script for opening websites.
 > Alternatively; Another solution is by using the datetime and scheudule module in python which will support all OS. 
 > Check out __schedule.txt__ for guidance concerning specifying time.
 
+## Notes
+This was done, as I was personally frusrated to regularly open tabs to catch up with news. Also, this was a good coding exercise...
+
+## Upcoming updates
+1. Using multiple text files containing list of websites.
+2. Specifying time for each list of websites.
+3. Chrome Extension
+
 ## Built With
 Python 2.7
 
@@ -36,20 +44,6 @@ Libraries used:
 2. __pyperclip__ - to extract content from your clipboard.
 3. __sys__ - to extract content from command-prompt/terminal.
 
-## Authors
-Shahzeb Afroze - redditor/self-learning-developer
-
-## Upcoming updates
-1. Using multiple text files containing list of websites.
-2. Specifying time for each list of websites.
-3. Chrome Extension
-
-## License
-Licensed under GNU General Public License v3.0. - afl-3.0
-
-## Notes
-This was done, as I was personally frusrated to regularly open tabs to catch up with news. Also, this was a good coding exercise...
-
 ## Acknowledgments
 The resouces that has been the bedrock of my project:
 
@@ -57,3 +51,6 @@ The resouces that has been the bedrock of my project:
 2. MIT OpenCourseWare - [MIT course 6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) taught by Dr. Ana Bell, Prof. Eric Grimson & Prof. John Guttag.
 3. Stackoverflow
 4. Reddit
+
+## License
+Licensed under GNU General Public License v3.0. - afl-3.0
