@@ -8,7 +8,7 @@ A solution for opening websites __automatically__ at date/time specified by you.
 3. Have you bookmarked news so that it is *easier* to open them __every morning__. Well, let's take it a step further and make that even easier.
 
 ## Prerequisites
-pip install pyperclip
+> pip install pyperclip
 
 ## Installing
 You can put the files anywhere if you know how to use the directory from the shell/terminal.
