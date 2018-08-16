@@ -6,7 +6,7 @@ A solution for opening websites __automatically__ at date/time specified by you 
 1. Opening __emails__ at specified times so that you can remain focused on your deliverables. 
 2. Opening reddit and your favourite subreddits on __happy hours__.
 3. Have you bookmarked news so that it is *easier* to open them __every morning__:anguished: . Well, let's take it a step further and make that even easier.
-4. Opening __all__ website links instead of copying and pasting __one__ at a time.
+4. Opening __all__ website links instead of copying and pasting __one__ website link on the browser at a time.
 
 ## Prerequisites
 __pip__ install _pyperclip_
