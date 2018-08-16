@@ -5,7 +5,7 @@ A solution for opening websites automatically at date/time specified by you.
 ## Why should you download?
 1. Opening emails at specified times so that you can remain focused on your deliverables. 
 2. Opening reddit and your favourite subreddits on happy hours.
-3. Have you bookmarked news so that it is "easier" to open them everyday. Well, let's take it a step further and make that even easier.
+3. Have you bookmarked news so that it is *easier* to open them everyday. Well, let's take it a step further and make that even easier.
 
 ## Prerequisites
 pip install pyperclip
@@ -39,7 +39,7 @@ Licensed under GNU General Public License v3.0. - afl-3.0
 ## Acknowledgments
 The resouces that has been the bedrock of my project:
 
-1. Automate the Boring Stuff with Python written by Al Sweigart.
-2. MIT OpenCourseWare - MIT course 6.0001 taught by Dr. Ana Bell, Prof. Eric Grimson & Prof. John Guttag.
+1. [Automate the Boring Stuff with Python written by Al Sweigart.](https://automatetheboringstuff.com/)
+2. MIT OpenCourseWare - [MIT course 6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) taught by Dr. Ana Bell, Prof. Eric Grimson & Prof. John Guttag.
 3. Stackoverflow
 4. Reddit
