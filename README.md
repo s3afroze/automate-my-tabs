@@ -41,11 +41,6 @@ This was done, as I was personally frusrated to regularly open tabs to catch up 
 ## Built With
 Python 2.7
 
-Libraries used:
-1. __webbrowser__ - to open websites on your browser.
-2. __pyperclip__ - to extract content from your clipboard.
-3. __sys__ - to extract content from command-prompt/terminal.
-
 ## Acknowledgments
 The resouces that has been the bedrock of my project:
 
