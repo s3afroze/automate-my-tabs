@@ -15,7 +15,15 @@ You can put the files anywhere if you know how to use the directory from the she
 You can follow the steps below if you dont know how to use the directory:
 1. Download the files in the Downloads folder.
 2. In order to interact with the script, enter the following in the shell: cd Desktop/downloads/automate-my-tabs
-3. Read the README.txt file for next steps
+3. Read the README.txt file.
+
+## How to set the time?
+There are multiple ways to set the time to run the script for opening websites.
+
+> Cronjob for linux or Unix-like computer operating systems.
+> This will give you more flexibility on specifying time. 
+> Check out __cronjob.txt__ for guidance concerning specifying time. 
+> I would recommend to check out this [video](https://www.youtube.com/watch?v=QZJ1drMQz1A) for more on cronjob.
 
 ## Built With
 Python 2.7
