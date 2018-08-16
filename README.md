@@ -3,17 +3,19 @@
 A solution for opening websites automatically at date/time specified by you.
 
 ## Why should you download?
-1. You don't have to worry anymore about going to a list of websites at a specified time.
-2. Have you bookmarked news so that it is "easier" to open them everyday. Well, let's take it a step further and make that even easier.
+1. Opening email for you at specified times so that you can remain focused on your deliverables. 
+2. Opening reddit and your favourite subreddits on happy hours.
+3. Have you bookmarked news so that it is "easier" to open them everyday. Well, let's take it a step further and make that even easier.
 
 ## Prerequisites
 pip install pyperclip
 
 ## Installing
-You can out the files anywhere if you know how to use the directory from the shell/terminal.
+You can put the files anywhere if you know how to use the directory from the shell/terminal.
 You can follow the steps below if you dont know how to use the directory:
 1. Download the files in the Downloads folder.
 2. In order to interact with the script, enter the following in the shell: cd Desktop/downloads/automate-my-tabs
+3. Read the README.txt file for next steps
 
 ## Built With
 Python 2.7
@@ -35,4 +37,9 @@ Shahzeb Afroze - redditor/student
 Licensed under GNU General Public License v3.0. - afl-3.0
 
 ## Acknowledgments
-Automate the boring stuff 
+The resouces that has been the bedrock of my project:
+
+1. Automate the Boring Stuff with Python written by Al Sweigart.
+2. MIT OpenCourseWare - MIT course 6.0001 taught by Dr. Ana Bell, Prof. Eric Grimson & Prof. John Guttag.
+3. Stackoverflow
+4. Reddit
