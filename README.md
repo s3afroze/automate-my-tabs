@@ -1,11 +1,11 @@
 # Automate my tabs
 
-A solution for opening websites __automatically__ at date/time specified by you.
+A solution for opening websites __automatically__ at date/time specified by you :relieved:.
 
 ## Why should you download?
 1. Opening __emails__ at specified times so that you can remain focused on your deliverables. 
 2. Opening reddit and your favourite subreddits on __happy hours__.
-3. Have you bookmarked news so that it is *easier* to open them __every morning__. Well, let's take it a step further and make that even easier.
+3. Have you bookmarked news so that it is *easier* to open them __every morning__:anguished: . Well, let's take it a step further and make that even easier.
 
 ## Prerequisites
 __pip__ install _pyperclip_
