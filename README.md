@@ -8,7 +8,7 @@ A solution for opening websites __automatically__ at date/time specified by you.
 3. Have you bookmarked news so that it is *easier* to open them __every morning__. Well, let's take it a step further and make that even easier.
 
 ## Prerequisites
-> pip install pyperclip
+__pip__ install _pyperclip_
 
 ## Installing
 You can put the files anywhere if you know how to use the directory from the shell/terminal.
@@ -20,10 +20,13 @@ You can follow the steps below if you dont know how to use the directory:
 ## How to set the time?
 There are multiple ways to set the time to run the script for opening websites.
 
-> Cronjob for linux or Unix-like computer operating systems.
+> Cronjob for __linux or Unix-like/Mac OS__ computer operating systems.
 > This will give you more flexibility on specifying time. 
 > Check out __cronjob.txt__ for guidance concerning specifying time. 
 > I would recommend to check out this [video](https://www.youtube.com/watch?v=QZJ1drMQz1A) for more on cronjob.
+
+> Alternatively; Another solution is by using the datetime and scheudule module in python which will support all OS. 
+> Check out __schedule.txt__ for guidance concerning specifying time.
 
 ## Built With
 Python 2.7
