@@ -48,7 +48,7 @@ Shahzeb Afroze - redditor/self-learning-developer
 Licensed under GNU General Public License v3.0. - afl-3.0
 
 ## Notes
-This was done, as I was personally frusrated to open tabs daily and sometimes kept them open when I felt lazy sometimes. Also, this was a good coding exercise...
+This was done, as I was personally frusrated to regularly open tabs to catch up with news. Also, this was a good coding exercise...
 
 ## Acknowledgments
 The resouces that has been the bedrock of my project:
