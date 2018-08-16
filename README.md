@@ -48,8 +48,6 @@ The resouces that has been the bedrock of my project:
 
 1. [Automate the Boring Stuff with Python written by Al Sweigart.](https://automatetheboringstuff.com/)
 2. MIT OpenCourseWare - [MIT course 6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) taught by Dr. Ana Bell, Prof. Eric Grimson & Prof. John Guttag.
-3. Stackoverflow
-4. Reddit
 
 ## License
 Licensed under GNU General Public License v3.0. - afl-3.0
