@@ -9,8 +9,8 @@ A solution for opening websites __automatically__ at date/time specified by you 
 4. Opening __all__ website links instead of copying and pasting __one__ website link on the browser at a time.
 
 ## Prerequisites
-__pip__ install _pyperclip_
-__pip__ install _schedule_
+1. __pip__ install _pyperclip_
+2. __pip__ install _schedule_
 
 ## Installing
 You can put the files anywhere if you know how to use the directory from the shell/terminal.
