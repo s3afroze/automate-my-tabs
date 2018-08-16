@@ -26,7 +26,7 @@ Libraries used:
 3. sys - to extract content from command-prompt/terminal.
 
 ## Authors
-Shahzeb Afroze - redditor/student
+Shahzeb Afroze - redditor/self-learning developer
 
 ## Upcoming updates
 1. Using multiple text files containing list of websites.
