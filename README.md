@@ -10,7 +10,6 @@ You can out the files anywhere if you know how to use the directory from the she
 You can follow the steps below if you dont know how to use the directory:
 1. Download the files in the Downloads folder.
 2. In order to interact with the script, enter the following in the shell: cd Desktop/downloads/automate-my-tabs
-3. 
 
 ## Built With
 Python 2.7
@@ -18,3 +17,11 @@ Libraries used:
 1. webbrowser
 2. pyperclip
 3. sys
+
+## Authors
+Shahzeb Afroze - redditor/student
+
+## License
+
+## Acknowledgments
+Automate the boring stuff 
