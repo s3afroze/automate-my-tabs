@@ -39,6 +39,7 @@ This was done, as I was personally frusrated to regularly open tabs to catch up 
 1. Using multiple text files containing list of websites.
 2. Specifying time for each list of websites.
 3. Chrome Extension
+4. Compatibility with python 3x
 
 ## Built With
 Python 2.7
