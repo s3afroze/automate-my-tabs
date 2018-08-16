@@ -23,7 +23,7 @@ There are multiple ways to set the time to run the script for opening websites.
 > Cronjob for __linux or Unix-like/Mac OS__ computer operating systems.
 > This will give you more flexibility on specifying time. 
 > Check out __cronjob.txt__ for guidance concerning specifying time. 
-> I would recommend to check out this [video](https://www.youtube.com/watch?v=QZJ1drMQz1A) for more on cronjob.
+> I would recommend to check out this [video](https://www.youtube.com/watch?v=QZJ1drMQz1A) or this [article](https://stackabuse.com/scheduling-jobs-with-python-crontab/) for more on cronjob.
 
 > Alternatively; Another solution is by using the datetime and scheudule module in python which will support all OS. 
 > Check out __schedule.txt__ for guidance concerning specifying time.
