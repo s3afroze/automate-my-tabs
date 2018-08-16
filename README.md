@@ -15,7 +15,7 @@ A solution for opening websites __automatically__ at date/time specified by you 
 ## Installing
 You can put the files anywhere if you know how to use the directory from the shell/terminal.
 You can follow the steps below if you dont know how to use the directory and/or github:
-1. Click __download/clone__ button above and download in _zip file_. 
+1. Click __download or clone__ button above and download in _zip file_. 
 2. Download the files in the Downloads folder.
 3. In order to interact with the script, enter the following in the shell: cd Desktop/downloads/automate-my-tabs
 4. Check out the README.txt file.
