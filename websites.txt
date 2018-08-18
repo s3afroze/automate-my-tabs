@@ -1,8 +1,8 @@
-5.30_PM_Daily
+google.com
 
-google.ca
+realpython.com
 
-google.ca
+techcrunch.com
 
-gmail.com
+bloomberg.com
 

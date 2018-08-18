@@ -17,7 +17,9 @@ import pyperclip
 # extracting the websitelist to show the user.
 file = 'websites.txt'
 with open(file,'r') as r:
-	time = r.readline(1)
+	
+	# read the time and it won't be part of the UI
+	time = r.readline()
 	content = r.read()
 	websites_list = content.strip().split('\n')
 	del_empty_strings = [website for website in websites_list if website != ""]
