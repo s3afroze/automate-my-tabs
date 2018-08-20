@@ -1,3 +1,5 @@
+daily 1.30
+
 google.com
 
 realpython.com

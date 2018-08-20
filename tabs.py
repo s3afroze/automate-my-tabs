@@ -10,20 +10,27 @@ Linkedin: https://www.linkedin.com/in/shahzebafroze/
 An algorithim to open your favourite sites on specific times. 
 
 """
-
-import webbrowser
+import os 
 
 website_list = 'websites.txt'
 
+f = 'domains.txt'
+
+# Code snippet from github - Paulo Bu
+for path, dirs, files in os.walk('.'):
+    if f in files:
+        os.chdir(path)
+        break
+    
 # extracting the list of domains of your site added.
 domains_list = open('domains.txt','r').read()
 all_domains = domains_list.strip().split('\n')
 
 # extracting the list of websites from the file.
-with open(website_list,'r') as f:
-    edit = f.read()
-    websites = edit.strip().split('\n')
-    del_empty_str = [ws for ws in websites if ws != ""]
+#with open(website_list,'r') as f:
+#    edit = f.read()
+#    websites = edit.strip().split('\n')
+#    del_empty_str = [ws for ws in websites if ws != ""]
 
 new_list = []
 
@@ -62,12 +69,12 @@ def check_link(website_list):
     
     return new_list
 
-check_link(del_empty_str)
+#check_link(del_empty_str)
 
-print 'Opening links....\n'
-
-for site in new_list:
-    print site
-    webbrowser.open_new(site)
-    
+#print 'Opening links....\n'
+#
+#for site in new_list:
+#    print site
+#    webbrowser.open_new(site)
+#    
     
