@@ -24,7 +24,7 @@ You can follow the steps below if you dont know how to use the directory and/or 
 1. Click __download or clone__ button above and download in _zip file_. 
 2. Unzip the folder in case you are downloading in the __zip form__.
 
-## Setup (2-3 minute max)
+## Setup (2 minute max)
 __linux or Unix-like/Mac OS__ come with a very handy tool known as __crontab__. You can read more on it [here](https://en.wikipedia.org/wiki/Cron).
 1. Go to the __terminal__ in your device. This might look daunting but trust me, it's gonna get over soon.
 2. Type(exclude the quotation marks) __"crontab -e"__ to set a cronjob.
