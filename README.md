@@ -30,7 +30,8 @@ You can follow the steps below if you dont know how to use the directory and/or 
 > 4. Press __i__ to go in insert mode.
 > 5. Copy __* * * * * python__ 
 > 6. Open the folder where you have downloaded this program and go to __Code__ folder.
-> 7. Drag the file __multiplefiles.py__ to the terminal and drop. It might look something like this: _* * * * * python /Users/Itsacruellife/Desktop/github_projects/automate-my-tabs/Code/multiplefiles.py_
+> 7. Drag the file __multiplefiles.py__ to the terminal and drop. It is to be noted that there is __space__ between each __*__ and then __space__ after the __5th *__ and then __space__ again before you drop file. It might look something like this: 
+>> _* * * * * python /Users/Itsacruellife/Desktop/github_projects/automate-my-tabs/Code/multiplefiles.py_
 > 8. Press __esc button__ and copy/write __:wq__ 
 > 9. Congrats! You are done :smiley:
 
