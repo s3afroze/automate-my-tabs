@@ -24,17 +24,17 @@ You can follow the steps below if you dont know how to use the directory and/or 
 1. Click __download or clone__ button above and download in _zip file_. 
 2. Unzip the folder in case you are downloading in the __zip form__.
 
-## Setup
-1. __linux or Unix-like/Mac OS__ come with a very handy tool known as __crontab__. You can read more on it [here](https://en.wikipedia.org/wiki/Cron).
-2. Go to the __terminal__ in your device. This might look daunting but trust me, it's gonna get over soon.
-3. Type(exclude the quotation marks) __"crontab -e"__ to set a cronjob.
-4. Press __"i"__ to go in insert mode.
-5. Copy(exclude the quotation marks) __"* * * * * python "__ 
-6. Open the folder where you have downloaded this program and go to __Code__ folder.
-7. Drag the file __multiplefiles.py__ to the terminal and drop. It is to be noted that there is __space__ between each __*__ and then __space__ after the __5th *__ and then __space__ again before you drop file. It might look something like this: 
+## Setup (2-3 minute max)
+__linux or Unix-like/Mac OS__ come with a very handy tool known as __crontab__. You can read more on it [here](https://en.wikipedia.org/wiki/Cron).
+1. Go to the __terminal__ in your device. This might look daunting but trust me, it's gonna get over soon.
+2. Type(exclude the quotation marks) __"crontab -e"__ to set a cronjob.
+3. Press __"i"__ to go in insert mode.
+4. Copy(exclude the quotation marks) __"* * * * * python "__ 
+5. Open the folder where you have downloaded this program and go to __Code__ folder.
+6. Drag the file __multiplefiles.py__ to the terminal and drop. It is to be noted that there is __space__ between each __*__ and then __space__ after the __5th *__ and then __space__ again before you drop file. It might look something like this: 
 > _* * * * * python /Users/Itsacruellife/Desktop/github_projects/automate-my-tabs/Code/multiplefiles.py_
-8. Press __esc button__ and copy/write(exclude the quotations) __":wq"__ 
-9. Congrats! You are done :smiley:
+7. Press __esc button__ and copy/write(exclude the quotations) __":wq"__ 
+8. Congrats! You are done :smiley:
 
 ## How to use?
 1. There is a demo.txt file to show how the to add links and set time. __Highly Recommended__
