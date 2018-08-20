@@ -48,10 +48,8 @@ __linux or Unix-like/Mac OS__ come with a very handy tool known as __crontab__. 
 This was done, as I was personally frusrated to regularly open tabs to catch up with sites that I visit regularly. Also, this was a good coding exercise...
 
 ## Upcoming updates
-1. Using multiple text files containing list of websites.
-2. Specifying time for each list of websites.
-3. Chrome Extension
-4. Compatibility with python 3x
+1. Chrome Extension
+2. Compatibility with python 3x
 
 ## Built With
 Python 2.7
