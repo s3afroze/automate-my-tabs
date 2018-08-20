@@ -28,8 +28,8 @@ You can follow the steps below if you dont know how to use the directory and/or 
 ## Setup
 1. __linux or Unix-like/Mac OS__ come with a very handy tool known as __crontab__. You can read more on it [here](https://en.wikipedia.org/wiki/Cron).
 2. Go to the __terminal__ in your device. This might look daunting but trust me, it's gonna get over soon.
-3. Type __crontab -e__ to set a cronjob.
-4. Press __i__ to go in insert mode.
+3. Type __"crontab -e"__ to set a cronjob.
+4. Press __"i"__ to go in insert mode.
 5. Copy(exclude the quotations) __"* * * * * python "__ 
 6. Open the folder where you have downloaded this program and go to __Code__ folder.
 7. Drag the file __multiplefiles.py__ to the terminal and drop. It is to be noted that there is __space__ between each __*__ and then __space__ after the __5th *__ and then __space__ again before you drop file. It might look something like this: 
