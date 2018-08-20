@@ -34,6 +34,12 @@ You can follow the steps below if you dont know how to use the directory and/or 
 > 8. Press __esc button__ and copy/write __:wq__ 
 > 9. Congrats! You are done :smiley:
 
+## How to use?
+1. There is a demo.txt file to show how the to add links and set time.
+2. Currently, you can set the repeat to __daily,weekends or weekdays__(_updates coming soon for more flexibility_)
+3. Create a .txt file.
+4. First line should be the schedule(__set in 24 hours only__) and the formatting for setting time is: _daily/weekends/weekdays_ __@__ _time in 24 hours with __hours__ and __minuites__ split by __.__ _. For example: __daily@12.00__
+
 ## Notes
 This was done, as I was personally frusrated to regularly open tabs to catch up with news. Also, this was a good coding exercise...
 
