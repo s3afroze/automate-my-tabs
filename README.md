@@ -7,33 +7,44 @@ A solution for opening websites __automatically__ at date/time specified by you 
 2. Opening reddit and your favourite subreddits on __happy hours__.
 3. Have you bookmarked news so that it is *easier* to open them __every morning__:anguished: . Well, let's take it a step further and make that even easier.
 4. Opening __all__ website links instead of copying and pasting __one__ website link on the browser at a time.
+5. Opening specific websites during your lunch break.
+6. Opening your assignment website on weekends helping in avoiding procastinating.
 
 ## Prerequisites
-1. __pip__ install _pyperclip_
-2. __pip__ install _schedule_
+1. Linux & unix-like system (such Mac OS)
+2. Python 2.7 (_Most OS have python preinstalled._)
+
+Look at notes for more details on how to check your version.
+_Only required for an extra feature of adding websites to your favourite list(__not necessary__)_
+3. __pip__ install _pyperclip_
+
 
 ## Installing
-You can put the files anywhere if you know how to use the directory from the shell/terminal.
 You can follow the steps below if you dont know how to use the directory and/or github:
 1. Click __download or clone__ button above and download in _zip file_. 
-2. Download the files in the Downloads folder.
-3. In order to interact with the script, enter the following in the shell: cd Desktop/downloads/automate-my-tabs
-4. Check out the README.txt file.
+2. Unzip the folder in case you are downloading in the __zip form__.
 
+## Setup
+1. __linux or Unix-like/Mac OS__ come with a very handy tool known as __crontab__. You can read more on it [here](https://en.wikipedia.org/wiki/Cron).
+2. Go to the __terminal__ in your device. This might look daunting but trust me, it's gonna get over soon.
+3. Type(exclude the quotation marks) __"crontab -e"__ to set a cronjob.
+4. Press __"i"__ to go in insert mode.
+5. Copy(exclude the quotation marks) __"* * * * * python "__ 
+6. Open the folder where you have downloaded this program and go to __Code__ folder.
+7. Drag the file __multiplefiles.py__ to the terminal and drop. It is to be noted that there is __space__ between each __*__ and then __space__ after the __5th *__ and then __space__ again before you drop file. It might look something like this: 
+> _* * * * * python /Users/Itsacruellife/Desktop/github_projects/automate-my-tabs/Code/multiplefiles.py_
+8. Press __esc button__ and copy/write(exclude the quotations) __":wq"__ 
+9. Congrats! You are done :smiley:
 
-## How to set the time?
-There are multiple ways to set the time to run the script for opening websites.
-
-> Cronjob for __linux or Unix-like/Mac OS__ computer operating systems.
-> This will give you more flexibility on specifying time. 
-> Check out __cronjob.txt__ for guidance concerning specifying time. 
-> I would recommend to check out this [video](https://www.youtube.com/watch?v=QZJ1drMQz1A) or this [article](https://stackabuse.com/scheduling-jobs-with-python-crontab/) for more on cronjob.
-
-> Alternatively; Another solution is by using the datetime and scheudule module in python which will support all OS. 
-> Check out __schedule.txt__ for guidance concerning specifying time.
+## How to use?
+1. There is a demo.txt file to show how the to add links and set time. __Highly Recommended__
+2. Currently, you can set the repeat to __daily,weekends or weekdays__(_updates coming soon for more flexibility_)
+3. Create a .txt file.
+4. First line should be the schedule(__set in 24 hours only__) for opening the sites. The formatting for setting time is: __daily/weekends/weekdays@__ time in _24 hours_ with __hours__ and __minuites__ split by __.__.Setting a schedule to open a list of websites at __1pm daily__ will look lke this: 
+> __daily@13.00__ 
 
 ## Notes
-This was done, as I was personally frusrated to regularly open tabs to catch up with news. Also, this was a good coding exercise...
+This was done, as I was personally frusrated to regularly open tabs to catch up with sites that I visit regularly. Also, this was a good coding exercise...
 
 ## Upcoming updates
 1. Using multiple text files containing list of websites.
