@@ -16,6 +16,7 @@ Improving your daily browsing activity by opening websites __automatically__ at 
 
 Look at notes for more details on how to check your version.
 _Only required for an extra feature of adding websites to your favourite list(__not necessary__)_
+
 3. __pip__ install _pyperclip_
 
 
