@@ -42,6 +42,10 @@ You can follow the steps below if you dont know how to use the directory and/or 
 4. First line should be the schedule(__set in 24 hours only__) for opening the sites. The formatting for setting time is: __daily/weekends/weekdays@__ time in _24 hours_ with __hours__ and __minuites__ split by __.__.Setting a schedule to open a list of websites at __1pm daily__ will look lke this: 
 > __daily@13.00__ 
 
+## Some suggestions for potential use:
+1. Opening specific websites during your lunch break.
+2. Opening your assignment website on weekends helping in avoiding procastinating.
+3. Opening news daily during your breakfast
 
 ## Notes
 This was done, as I was personally frusrated to regularly open tabs to catch up with sites that I visit regularly. Also, this was a good coding exercise...
