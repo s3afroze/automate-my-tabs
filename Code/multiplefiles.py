@@ -3,8 +3,6 @@ import webbrowser
 from datetime import datetime,time,timedelta
 import tabs
 
-website_list = 'websites.txt'
-
 f = 'domains.txt'
 
 # Code snippet from github - Paulo Bu
@@ -13,17 +11,18 @@ for path, dirs, files in os.walk('.'):
         os.chdir(path)
         break
     
-path = os.getcwd()
-rere = os.path.join(path,'website_lists')
-folder = os.listdir(rere)
-
-list_of_files = [files for files in folder if files.endswith('.txt')]
-path_to_files = [os.path.join(rere,files) for files in list_of_files]
-
 # extracting the list of domains of your site added.
-#path_to_domain_file = 
 domains_list = open('domains.txt','r').read()
 all_domains = domains_list.strip().split('\n')
+
+#changed directory to main_folder
+os.chdir('..')
+
+#changed directory to website lists
+os.chdir('website_lists')
+folder = os.listdir(os.getcwd())
+
+path_to_files = [files for files in folder if files.endswith('.txt')]
 
 d = {}
 # fill the dict 
