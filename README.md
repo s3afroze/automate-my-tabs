@@ -37,7 +37,7 @@ You can follow the steps below if you dont know how to use the directory and/or 
 9. Congrats! You are done :smiley:
 
 ## How to use?
-1. There is a demo.txt file to show how the to add links and set time.
+1. There is a demo.txt file to show how the to add links and set time. __Highly Recommended__
 2. Currently, you can set the repeat to __daily,weekends or weekdays__(_updates coming soon for more flexibility_)
 3. Create a .txt file.
 4. First line should be the schedule(__set in 24 hours only__) for opening the sites. The formatting for setting time is: __daily/weekends/weekdays@__ time in _24 hours_ with __hours__ and __minuites__ split by __.__.Setting a schedule to open a list of websites at __1pm daily__ will look lke this: 
