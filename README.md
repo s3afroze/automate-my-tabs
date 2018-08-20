@@ -15,9 +15,8 @@ A solution for opening websites __automatically__ at date/time specified by you 
 2. Python 2.7 (_Most OS have python preinstalled._)
 
 Look at notes for more details on how to check your version.
-
 _Only required for an extra feature of adding websites to your favourite list(__not necessary__)_
-1. __pip__ install _pyperclip_
+3. __pip__ install _pyperclip_
 
 
 ## Installing
