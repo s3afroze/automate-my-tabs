@@ -1,0 +1,22 @@
+daily@7.30
+
+techcrunch.com
+
+realpython.com
+
+bloomberg
+
+https://www.youtube.com/playlist?list=PL83DDC2327BEB616D
+
+
+-----------------------------------------------------NOTE--------------------------------------------
+
+1) Option for repeats as of this version: daily, weekdays, weekends (Saturday & Sunday)
+
+2) One line space for each link/website you add.
+
+
+
+
+
+
