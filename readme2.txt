@@ -1,2 +1,13 @@
-2 ways to add to the list:
-- write the websites seperated by commas when running the code.
+- option for repeat: daily/weekend/weekdays
+
+- time to be set in 24 hours clock format for example 1pm is 13.00
+
+- the hour and minute must be divided by "."
+
+- connect the time and schedule by "@"
+
+- For example setting 7am news tabs will look like this: "daily@07.00"
+
+- It is recommended to have less than 15 websites in one tab so that the browser doesn't get crowded.
+
+- Some shortcuts to close tabs: selecting tabs that you would like to close on the browser,left click and "close selected tabs". Click the first tab,left click and then "close tab to the right"

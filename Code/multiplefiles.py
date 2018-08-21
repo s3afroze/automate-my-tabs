@@ -1,3 +1,15 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+
+"""
+
+@author: Shahzeb Afroze
+Linkedin: https://www.linkedin.com/in/shahzebafroze/
+
+An algorithim to open your favourite sites automatically. 
+
+"""
+
 import os
 import webbrowser
 from datetime import datetime,time,timedelta
