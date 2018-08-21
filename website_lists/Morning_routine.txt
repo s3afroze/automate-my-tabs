@@ -1,4 +1,4 @@
-daily@17.34
+daily@08.00
 
 realpython 
 
