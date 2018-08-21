@@ -1,4 +1,4 @@
-daily@7.30
+daily@12.17
 
 techcrunch.com
 
@@ -8,13 +8,13 @@ bloomberg
 
 https://www.youtube.com/playlist?list=PL83DDC2327BEB616D
 
+----------------------------------NOTE----------------------------------
 
------------------------------------------------------NOTE--------------------------------------------
-
-1) Option for repeats as of this version: daily, weekdays, weekends (Saturday & Sunday)
-
-2) One line space for each link/website you add.
-
+- option for repeat: daily/weekend/weekdays
+- time to be set in 24 hours clock format for example 1pm is 13.00
+- the hour and minute must be divided by "."
+- connect the time and repeat by "@"
+- For example setting 7am news tabs will look like this: "daily@07.00"
 
 
 
