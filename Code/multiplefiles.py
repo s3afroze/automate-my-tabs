@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+
+@author: Shahzeb Afroze
+Linkedin: https://www.linkedin.com/in/shahzebafroze/
+
+An algorithim to open your favourite sites on specific times. 
+
+"""
+
 import os
 import webbrowser
 from datetime import datetime,time,timedelta
