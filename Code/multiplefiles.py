@@ -1,27 +1,9 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-
-"""
-
-@author: Shahzeb Afroze
-Linkedin: https://www.linkedin.com/in/shahzebafroze/
-
-An algorithim to open your favourite sites automatically. 
-
-"""
-
 import os
 import webbrowser
 from datetime import datetime,time,timedelta
 import tabs
 
 f = 'domains.txt'
-
-# Code snippet from github - Paulo Bu
-for path, dirs, files in os.walk('.'):
-    if f in files:
-        os.chdir(path)
-        break
     
 # extracting the list of domains of your site added.
 domains_list = open('domains.txt','r').read()
@@ -70,7 +52,7 @@ for file in path_to_files:
 	condition = (hour_and_min == timeobj)
 	
 	if condition:
-		for el in d.keys():
+		for el in list(d.keys()):
 			if el == repeat:
 				if day_today in d[el]:
 					new_list = tabs.check_link(del_empty_str)
@@ -82,6 +64,3 @@ for file in path_to_files:
 				
 
 
-
-
-# specific days which will be appended

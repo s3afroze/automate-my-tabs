@@ -1,6 +1,8 @@
-daily@08.00
+daily@09.00
 
 realpython 
+
+http://student.computing.yorku.ca/computer-labs/
 
 bloomberg
 
@@ -8,7 +10,7 @@ techcrunch.com
 
 hackernoon
 
-medium
+https://jeffknupp.com/blog/2012/10/04/writing-idiomatic-python/
 
 towardsdatascience
 
@@ -16,7 +18,6 @@ https://www.reddit.com/r/learnpython/
 
 https://www.reddit.com/r/learnprogramming/
 
-gmail.com
 
 
 
