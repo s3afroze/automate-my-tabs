@@ -6,7 +6,7 @@ Improving your daily browsing activity by opening websites __automatically__ at 
 1. Opening __emails__ at specified times so that you can remain focused on your deliverables. 
 2. Opening reddit and your favourite subreddits on __happy hours__.
 3. Have you bookmarked news so that it is *easier* to open them __every morning__. Well, let's take it a step further and make that even easier.
-4. Opening __all__ website links instead of copying and pasting __one__ website link on the browser at a time.
+4. Make unlimited number of websites lists that you would like to open at time specified by you.
 5. Opening specific websites during your lunch break.
 6. Opening your assignment website on weekends helping in avoiding procastinating.
 
