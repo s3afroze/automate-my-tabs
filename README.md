@@ -12,12 +12,11 @@ Improving your daily browsing activity by opening websites __automatically__ at 
 
 ## Prerequisites
 1. Linux & unix-like system (such Mac OS)
-2. Python 2.7 (_Most OS have python preinstalled._)
 
 Look at notes for more details on how to check your version.
 _Only required for an extra feature of adding websites to your favourite list(__not necessary__)_
 
-3. __pip__ install _pyperclip_
+2. __pip__ install _pyperclip_
 
 
 ## Installing
@@ -49,10 +48,9 @@ This was done, as I was personally frusrated to regularly open tabs to catch up 
 
 ## Upcoming updates
 1. Chrome Extension
-2. Compatibility with python 3x
 
 ## Built With
-Python 2.7
+Python3
 
 ## Acknowledgments
 The resouces that has been the bedrock of my project:
