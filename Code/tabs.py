@@ -2,11 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
+Created on Fri Aug  3 09:01:08 2018
 
 @author: Shahzeb Afroze
 Linkedin: https://www.linkedin.com/in/shahzebafroze/
-
-An algorithim to open your favourite sites on specific times. 
 
 """
 
