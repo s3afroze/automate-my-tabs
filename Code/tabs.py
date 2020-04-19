@@ -5,21 +5,19 @@
 Created on Fri Aug  3 09:01:08 2018
 
 @author: Shahzeb Afroze
-Linkedin: https://www.linkedin.com/in/shahzebafroze/
 
 """
 
 import os 
 
-website_list = 'websites.txt'
-
 f = 'domains.txt'
 
-# Code snippet from github - Paulo Bu
+#  --- Code snippet from github - Paulo Bu
 for path, dirs, files in os.walk('.'):
     if f in files:
         os.chdir(path)
         break
+# ---
     
 # extracting the list of domains of your site added.
 domains_list = open('domains.txt','r').read()

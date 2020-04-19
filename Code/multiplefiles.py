@@ -5,7 +5,6 @@
 Created on Fri Aug  3 09:01:08 2018
 
 @author: Shahzeb Afroze
-Linkedin: https://www.linkedin.com/in/shahzebafroze/
 
 """
 
